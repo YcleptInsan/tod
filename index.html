@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link href="css/styles.css" rel="stylesheet" type="text/css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="js/scripts.js" type="text/javascript"></script>
+    <title>Good Ole' Tah Dew List</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="formOne">
+        <div class="form-group">
+          <label for="taskTitle">Title:</label>
+          <input type="text" name="task" id="taskTitle" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="taskDescription">Description:</label>
+          <input type="text" name="task" id="taskDescription" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="taskTime">Timeframe:</label>
+          <input type="text" name="task" id="taskTime" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="taskNotes">Side Notes:</label>
+          <input type="text" name="task" id="taskNotes" class="form-control">
+        </div>
+        <button type="submit" name="button">Submit!</button>
+      </form>
+      <ul class="listTask">
+
+      </ul>
+      <div class="taskResults">
+        <h3 class="titleResults"></h3>
+        <p>Description: <span class="descriptionResults"></span></p>
+        <p>Timeframe: <span class="timeResults"></span></p>
+        <p>Notes: <span class="notesResults"></span></p>
+        <button type="button" name="delete" id="delete">Task Complete!</button>
+      </div>
+    </div>
+  </body>
+</html>

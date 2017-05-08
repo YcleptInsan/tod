@@ -1,0 +1,12 @@
+.taskResults {
+  display: none;
+}
+
+.tasks {
+  color: #0088ee;
+  cursor: pointer;
+}
+
+.tasks:hover {
+  text-decoration: underline;
+}
